@@ -13,6 +13,8 @@
 		B461480E2665C2B8007D87E3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B461480D2665C2B8007D87E3 /* Preview Assets.xcassets */; };
 		B46148192665C2B8007D87E3 /* MovieListEdittttTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46148182665C2B8007D87E3 /* MovieListEdittttTests.swift */; };
 		B46148242665C2B8007D87E3 /* MovieListEdittttUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46148232665C2B8007D87E3 /* MovieListEdittttUITests.swift */; };
+		B46148352665C2EF007D87E3 /* MovieAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46148342665C2EF007D87E3 /* MovieAdd.swift */; };
+		B461483A2665CAA5007D87E3 /* NewMovieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46148392665CAA5007D87E3 /* NewMovieView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		B461481F2665C2B8007D87E3 /* MovieListEdittttUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovieListEdittttUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B46148232665C2B8007D87E3 /* MovieListEdittttUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListEdittttUITests.swift; sourceTree = "<group>"; };
 		B46148252665C2B8007D87E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B46148342665C2EF007D87E3 /* MovieAdd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieAdd.swift; sourceTree = "<group>"; };
+		B46148392665CAA5007D87E3 /* NewMovieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMovieView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				B461480A2665C2B8007D87E3 /* Assets.xcassets */,
 				B461480F2665C2B8007D87E3 /* Info.plist */,
 				B461480C2665C2B8007D87E3 /* Preview Content */,
+				B46148342665C2EF007D87E3 /* MovieAdd.swift */,
+				B46148392665CAA5007D87E3 /* NewMovieView.swift */,
 			);
 			path = MovieListEditttt;
 			sourceTree = "<group>";
@@ -260,6 +266,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B46148092665C2B5007D87E3 /* ContentView.swift in Sources */,
+				B46148352665C2EF007D87E3 /* MovieAdd.swift in Sources */,
+				B461483A2665CAA5007D87E3 /* NewMovieView.swift in Sources */,
 				B46148072665C2B5007D87E3 /* MovieListEdittttApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
